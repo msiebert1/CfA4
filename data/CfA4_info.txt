@@ -1,0 +1,154 @@
+#  
+#   VizieR Astronomical Server vizier.cfa.harvard.edu
+#    Date: 2018-02-16T23:35:39 [V1.99+ (14-Oct-2013)]
+#   In case of problem, please report to: cds-question@unistra.fr
+# 
+#   
+#Coosys J2000: eq_FK5 J2000 
+#INFO votable-version=1.99+ (14-Oct-2013) 
+#INFO -ref=VIZ5a876a5e4fcc 
+#INFO -out.max=unlimited 
+#INFO queryParameters=25 
+#-oc.form=sexa
+#-out.max=unlimited
+#-nav=cat:J/ApJS/200/12&tab:{J/ApJS/200/12/table1}&key:source=J/ApJS/200/12/table1&HTTPPRM:&
+#-c.eq=J2000
+#-c.r=  2
+#-c.u=arcmin
+#-c.geom=r
+#-source=J/ApJS/200/12/table1
+#-order=I
+#-out=SN
+#-out=CS
+#CS=CS
+#-out=LC
+#LC=LC
+#-out=RAJ2000
+#-out=DEJ2000
+#-out=Gal
+#-out=z
+#-out=zCMB
+#-out=E(B-V)
+#-out=Ref
+#-out=SNcat
+#SNcat=SNcat
+#-out=Simbad
+#Simbad=Simbad
+#
+#RESOURCE=yCat_22000012
+#Name: J/ApJS/200/12
+#Title: CfA4: light curves for 94 type Ia SNe (Hicken+, 2012)
+#Table J_ApJS_200_12_table1:
+#Name: J/ApJS/200/12/table1
+#Title: SN Ia discovery data
+#---Details of Columns:
+    SN                (a14)   SN Ia identification (YYYYaa, snfYYYYMMDDNNN, or PTF10bjs) [ucd=meta.id;meta.main]
+    CS                (A2)    Photometry of comparison stars in this field [ucd=meta.ref.url]
+    LC                (A2)    Plot the light curves from natural system SN photometry (table 5) [ucd=meta.ref.url]
+    RAJ2000 ("h:m:s") (A12)   Hour of right ascension (J2000) (1) [ucd=pos.eq.ra;meta.main]
+    DEJ2000 ("d:m:s") (A12)   Degree of declination (J2000) (1) [ucd=pos.eq.dec;meta.main]
+    Gal               (a29)   Galaxy identification from NED [ucd=meta.id]
+    z                 (F7.4)  Heliocentric redshift (2) [ucd=src.redshift]
+    zCMB              (F7.4)  CMB redshift (2) [ucd=src.redshift]
+    E(B-V) (mag)      (F7.4)  B-V color excess (3) [ucd=phot.color.excess]
+    Ref               (A9)    SN discovery reference (4) [ucd=meta.ref;pos.frame]
+    SNcat             (a5)    Display the Asiago Supernova catalog data within 3" [ucd=meta.ref.url]
+    Simbad            (a6)    Simbad column added by the CDS [ucd=meta.ref]
+-------------- -- -- ------------ ------------ ----------------------------- ------- ------- ------- --------- ----- ------
+                     RAJ20        DEJ20                                                      E(B-V                         
+SN             CS LC 00 ("h:m:s") 00 ("d:m:s") Gal                           z       zCMB    ) (mag) Ref       SNcat Simbad
+-------------- -- -- ------------ ------------ ----------------------------- ------- ------- ------- --------- ----- ------
+2006ct         CS LC 12 09 56.851 +47 05 44.31 2MASX_J12095669+4705461        0.0315  0.0322  0.0191 IAUC 8720 SNcat Simbad
+2006ou         CS LC 11 37 13.039 +15 26 06.59 UGC_6588                       0.0135  0.0146  0.0334 IAUC 8781 SNcat Simbad
+2007A          CS LC 00 25 16.681 +12 53 12.78 NGC_105                        0.0177  0.0165  0.0736 CBET 795  SNcat Simbad
+2007aj         CS LC 12 47 54.524 +54 00 38.08 CGCG_270-24                    0.0110  0.0115  0.0163 IAUC 8822 SNcat Simbad
+2007bj         CS LC 16 22 10.589 -01 30 51.33 NGC_6172                       0.0167  0.0170  0.1177 IAUC 8834 SNcat Simbad
+2007cb         CS LC 13 58 17.199 -23 22 21.68 ESO_510-G31                    0.0366  0.0375  0.0719 IAUC 8843 SNcat Simbad
+2007cc         CS LC 14 08 42.050 -21 35 47.50 ESO_578-G26                    0.0291  0.0300  0.0794 IAUC 8843 SNcat Simbad
+2007cf         CS LC 15 23 07.676 +08 31 45.79 CGCG_77-100                    0.0329  0.0335  0.0343 IAUC 8843 SNcat Simbad
+2007cn         CS LC 22 13 55.790 +13 45 23.45 UGC_11953                      0.0253  0.0241  0.0621 IAUC 8851 SNcat Simbad
+2007cs         CS LC 23 49 38.930 +29 55 52.61 UGC_12798                      0.0176  0.0164  0.0662 CBET 986  SNcat Simbad
+2007ev         CS LC 22 40 06.201 +24 41 56.67 AGC_320702                     0.0427  0.0416  0.0490 CBET 991  SNcat Simbad
+2007fb         CS LC 23 56 52.383 +05 30 31.90 UGC_12859                      0.0180  0.0168  0.0556 IAUC 8864 SNcat Simbad
+2007fq         CS LC 20 34 55.742 -23 06 15.38 MCG-04-48-019                  0.0425  0.0416  0.0420 CBET 1001 SNcat Simbad
+2007fs         CS LC 22 01 40.450 -21 30 30.22 ESO_601-G5                     0.0172  0.0162  0.0336 IAUC 8864 SNcat Simbad
+2007hg         CS LC 04 08 32.676 +02 22 43.20 [ISI96]_0405+0214              0.0300  0.0297  0.3799 CBET 1047 SNcat Simbad
+2007hj         CS LC 23 01 47.880 +15 35 11.23 NGC_7461                       0.0141  0.0129  0.0883 IAUC 8874 SNcat Simbad
+2007hu         CS LC 16 56 29.887 +27 58 39.75 NGC_6261                       0.0354  0.0354  0.0458 CBET 1056 SNcat Simbad
+2007if         CS LC 01 10 51.370 +15 27 39.63 [YQ2007]_J011051.37+152739.9   0.0742  0.0731  0.0831 CBET 1059 SNcat Simbad
+2007ir         CS LC 02 33 41.898 +37 40 08.12 UGC_2033                       0.0352  0.0345  0.0495 CBET 1067 SNcat Simbad
+2007is         CS LC 16 47 14.607 +40 14 36.40 UGC_10553                      0.0297  0.0297  0.0201 IAUC 8874 SNcat Simbad
+2007jg         CS LC 03 29 50.815 +00 03 24.55 SDSS_J032950.83+000316.0       0.0371  0.0366  0.1065 CBET 1076 SNcat Simbad
+2007kd         CS LC 09 25 58.041 +34 38 00.11 MCG+06-21-36                   0.0242  0.0250  0.0217 IAUC 8874 SNcat Simbad
+2007kf         CS LC 17 31 31.266 +69 18 39.59 [K2007]_J173131.76+691840.1    0.0460  0.0458  0.0439 IAUC 8875 SNcat Simbad
+2007kg         CS LC 23 58 37.493 +60 59 07.41 2MFGC_18005                    0.0070  0.0063  0.9977 IAUC 8875 SNcat Simbad
+2007kh         CS LC 03 15 12.049 +43 10 13.39 [YAA2007a]J031512.10+431013.0  0.0500  0.0495  0.1984 CBET 1089 SNcat Simbad
+2007kk         CS LC 03 42 23.258 +39 14 30.30 UGC_2828                       0.0410  0.0406  0.2291 CBET 1096 SNcat Simbad
+2007le         CS LC 23 38 48.452 -06 31 21.83 NGC_7721                       0.0067  0.0055  0.0334 CBET 1100 SNcat Simbad
+2007nq         CS LC 00 57 33.721 -01 23 20.29 UGC_595                        0.0450  0.0439  0.0354 CBET 1106 SNcat Simbad
+2007ob         CS LC 23 12 25.988 +13 54 49.13 2MASX_J23122598+1354503        0.0339  0.0327  0.0681 CBET 1112 SNcat Simbad
+2007rx         CS LC 23 40 11.782 +27 25 15.59 BATC_J234012.05+272512.23      0.0301  0.0289  0.0890 CBET 1157 SNcat Simbad
+2007ss         CS LC 12 41 06.150 +50 23 28.51 NGC_4617                       0.0155  0.0161  0.0149 CBET 1175 SNcat Simbad
+2007su         CS LC 22 19 08.884 +13 10 39.89 SDSS_J221908.85+131040.5       0.0279  0.0267  0.0830 CBET 1178 SNcat Simbad
+2007sw         CS LC 12 13 36.933 +46 29 36.56 UGC_7228                       0.0252  0.0260  0.0186 CBET 1185 SNcat Simbad
+2007ux         CS LC 10 09 19.939 +14 59 33.07 2MASX_J10091969+1459268        0.0309  0.0320  0.0448 CBET 1187 SNcat Simbad
+2008A          CS LC 01 38 17.394 +35 22 13.06 NGC_634                        0.0165  0.0156  0.0542 CBET 1193 SNcat Simbad
+2008C          CS LC 06 57 11.469 +20 26 13.58 UGC_3611                       0.0166  0.0171  0.0839 CBET 1195 SNcat Simbad
+2008Q          CS LC 01 24 57.207 +09 33 01.30 NGC_524                        0.0600  0.0590  0.0828 CBET 1228 SNcat Simbad
+2008Y          CS LC 11 19 30.581 +54 27 46.21 MCG+9-19-39                    0.0697  0.0703  0.0129 CBET 1240 SNcat Simbad
+2008Z          CS LC 09 43 15.258 +36 17 03.64 SDSS_J094315.36+361709.2       0.0210  0.0218  0.0114 CBET 1243 SNcat Simbad
+2008ac         CS LC 11 53 45.200 +48 25 20.79 SDSS_J115345.22+482521.0       0.0528  0.0535  0.0190 CBET 1245 SNcat Simbad
+2008ad         CS LC 12 49 37.071 +28 19 45.82 ROTSE_J124936.88+281944.8      0.0500  0.0509  0.0130 CBET 1245 SNcat Simbad
+2008ae         CS LC 09 56 03.160 +10 29 58.52 IC_577                         0.0301  0.0312  0.0277 CBET 1247 SNcat Simbad
+2008ai         CS LC 10 57 39.957 +37 39 41.40 CGCG_184-39                    0.0353  0.0361  0.0163 CBET 1256 SNcat Simbad
+2008ar         CS LC 12 24 37.922 +10 50 16.74 IC_3284                        0.0261  0.0272  0.0373 CBET 1273 SNcat Simbad
+2008at         CS LC 10 27 12.469 +71 24 55.55 UGC05645                       0.0350  0.0352  0.0912 CBET 1277 SNcat Simbad
+2008bi         CS LC 08 35 53.388 +00 42 22.85 NGC_2618                       0.0134  0.0144  0.0441 CBET 1312 SNcat Simbad
+2008bw         CS LC 18 26 50.440 +51 08 16.42 UGC_11241                      0.0331  0.0328  0.0399 CBET 1346 SNcat Simbad
+2008by         CS LC 12 05 20.907 +40 56 44.43 SDSS_J120520.81+405644.4       0.0450  0.0458  0.0135 CBET 1350 SNcat Simbad
+2008bz         CS LC 12 38 57.686 +11 07 45.60 2MASX_J12385810+1107502        0.0603  0.0614  0.0269 CBET 1353 SNcat Simbad
+2008cd         CS LC 13 15 01.777 -15 57 06.70 NGC_5038                       0.0074  0.0085  0.0688 CBET 1360 SNcat Simbad
+2008cf         CS LC 14 07 32.585 -26 33 07.74 [WLF2008]_J140732.38-263305.6  0.0460  0.0469  0.0674 CBET 1365 SNcat Simbad
+2008cm         CS LC 13 29 12.826 +11 16 20.65 NGC_2369                       0.0111  0.0116  0.1139 CBET 1384 SNcat Simbad
+2008dr         CS LC 22 10 51.664 +02 06 29.34 NGC_7222                       0.0414  0.0403  0.0428 CBET 1419 SNcat Simbad
+2008ds         CS LC 00 29 50.820 +31 23 33.88 UGC_299                        0.0210  0.0200  0.0643 CBET 1419 SNcat Simbad
+2008dt         CS LC 16 56 30.592 +27 58 33.83 NGC_6261                       0.0354  0.0354  0.0458 CBET 1423 SNcat Simbad
+2008fr         CS LC 01 11 49.224 +14 38 26.21 SDSS_J011149.19+143826.5       0.0490  0.0479  0.0449 CBET 1513 SNcat Simbad
+2008gb         CS LC 02 57 57.141 +46 51 56.19 UGC_2427                       0.0370  0.0364  0.1983 CBET 1527 SNcat Simbad
+2008gl         CS LC 01 20 54.820 +04 48 19.22 UGC_881                        0.0340  0.0330  0.0284 CBET 1545 SNcat Simbad
+2008hj         CS LC 00 04 01.913 -11 10 08.35 MCG-2-1-14                     0.0379  0.0367  0.0361 CBET 1579 SNcat Simbad
+2008hm         CS LC 03 27 10.889 +46 56 39.20 2MFGC_2845                     0.0197  0.0192  0.4425 CBET 1586 SNcat Simbad
+2008hs         CS LC 02 25 29.594 +41 50 34.92 NGC_910                        0.0173  0.0166  0.0573 CBET 1598 SNcat Simbad
+2008hv         CS LC 09 07 34.066 +03 23 32.18 NGC_2765                       0.0125  0.0136  0.0321 CBET 1601 SNcat Simbad
+2009D          CS LC 03 54 22.817 -19 10 54.56 MCG-03-10-52                   0.0250  0.0247  0.0529 CBET 1647 SNcat Simbad
+2009Y          CS LC 14 42 24.563 -17 14 46.70 NGC_5728                       0.0093  0.0101  0.1016 CBET 1684 SNcat Simbad
+2009ad         CS LC 05 03 33.393 +06 39 35.82 UGC_3236                       0.0284  0.0283  0.1120 CBET 1694 SNcat Simbad
+2009al         CS LC 10 51 22.049 +08 34 41.98 NGC_3425                       0.0221  0.0233  0.0246 CBET 1705 SNcat Simbad
+2009an         CS LC 12 22 47.385 +65 51 04.60 NGC_4332                       0.0092  0.0095  0.0186 CBET 1707 SNcat Simbad
+2009bv         CS LC 13 07 20.517 +35 47 03.20 MCG+6-29-39                    0.0367  0.0375  0.0086 CBET 1741 SNcat Simbad
+2009dc         CS LC 15 51 12.083 +25 42 28.43 UGC_10064                      0.0214  0.0217  0.0696 CBET 1762 SNcat Simbad
+2009do         CS LC 12 34 58.316 +50 51 03.81 NGC_4537                       0.0397  0.0403  0.0149 CBET 1778 SNcat Simbad
+2009ds         CS LC 11 49 04.025 -09 43 44.48 NGC_3905                       0.0192  0.0204  0.0389 CBET 1784 SNcat Simbad
+2009fv         CS LC 16 29 44.191 +40 48 41.44 NGC_6173                       0.0293  0.0294  0.0063 CBET 1834 SNcat Simbad
+2009gf         CS LC 14 15 37.127 +14 16 48.74 NGC_5525                       0.0185  0.0193  0.0255 CBET 1844 SNcat Simbad
+2009hp         CS LC 02 58 23.938 +06 35 34.64 MCG+01-08-30                   0.0211  0.0204  0.2300 CBET 1888 SNcat Simbad
+2009ig         CS LC 02 38 11.613 -01 18 45.52 NGC_1015                       0.0088  0.0080  0.0320 CBET 1918 SNcat Simbad
+2009jr         CS LC 20 26 26.013 +02 54 31.73 IC_1320                        0.0165  0.0156  0.1347 CBET 1964 SNcat Simbad
+2009kk         CS LC 03 49 44.320 -03 15 52.66 2MFGC_3182                     0.0129  0.0124  0.1376 CBET 1991 SNcat Simbad
+2009kq         CS LC 08 36 15.148 +28 04 01.67 MCG+5-21-1                     0.0116  0.0124  0.0410 CBET 2005 SNcat Simbad
+2009le         CS LC 02 09 17.160 -23 24 44.74 ESO_478-6                      0.0178  0.0170  0.0164 CBET 2022 SNcat Simbad
+2009lf         CS LC 02 01 39.616 +15 19 58.13 2MASX_J02014081+1519521        0.0450  0.0441  0.0525 CBET 2023 SNcat Simbad
+2009li         CS LC 00 22 51.395 +06 58 11.35 IC_1549                        0.0404  0.0392  0.0267 CBET 2026 SNcat Simbad
+2009na         CS LC 10 47 01.444 +26 32 37.73 UGC_5884                       0.0210  0.0220  0.0319 CBET 2098 SNcat Simbad
+2009nq         CS LC 23 15 17.004 +19 01 21.58 NGC_7549                       0.0158  0.0146  0.1455 CBET 2110 SNcat Simbad
+2010A          CS LC 02 32 39.459 +00 37 09.90 UGC_2019                       0.0207  0.0199  0.0291 CBET 2109 SNcat Simbad
+2010H          CS LC 08 06 24.342 +01 02 09.01 IC_494                         0.0152  0.0160  0.0308 CBET 2130 SNcat Simbad
+2010Y          CS LC 10 51 03.994 +65 46 46.40 NGC_3392                       0.0109  0.0113  0.0135 CBET 2168 SNcat Simbad
+2010ag         CS LC 17 03 53.653 +31 30 06.70 UGC_10679                      0.0338  0.0338  0.0309 CBET 2195 SNcat Simbad
+2010ai         CS LC 12 59 24.005 +27 59 47.13 SDSS_J125925.04+275948.2       0.0184  0.0193  0.0094 CBET 2200 SNcat Simbad
+2010cr         CS LC 13 29 25.082 +11 47 46.49 NGC_5177                       0.0216  0.0225  0.0345 CBET 2281 SNcat Simbad
+2010dt         CS LC 16 43 15.063 +32 40 27.56 CGCG_168-029                   0.0529  0.0529  0.0341 CBET 2307 SNcat Simbad
+2010dw         CS LC 15 22 40.279 -05 55 16.46 2MASX_J15224062-0555214        0.0381  0.0387  0.0933 CBET 2310 SNcat Simbad
+snf20080522000 CS LC 13 36 47.592 +05 08 30.41 SDSS_J133647.59+050833.0       0.0472  0.0482  0.0265 SNF site  SNcat Simbad
+snf20080522011 CS LC 15 19 58.920 +04 54 16.73 SDSS_J151959.16+045411.2       0.0397  0.0403  0.0427 SNF site  SNcat Simbad
+PTF10bjs       CS LC 13 01 11.215 +53 48 57.49 MCG+9-21-83                    0.0300  0.0306  0.0176 ATEL 2453 SNcat Simbad
